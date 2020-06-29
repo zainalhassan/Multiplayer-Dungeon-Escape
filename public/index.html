@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Dungeon Explorer</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="DungeonClient.js"></script>
+    <script src="webGameTouch.js"></script>
+</head>
+
+<body>
+
+<img id="logo" src="logo.png" alt="Dungeon Game Logo">
+
+<canvas id="gameCanvas" width="500" height="500">
+    Your browser has no Canvas support!
+</canvas>
+
+<div id="touchControl">
+    <!--<div id="upBtn">-->
+        <!--<button id = "upButton">Up</button>-->
+    <!--</div>-->
+
+    <!--<div id="leftRightBtn">-->
+        <!--<button id = "leftButton">Left</button>-->
+        <!--<button id = "rightButton">Right</button>-->
+    <!--</div>-->
+    <!--<div id = "downBtn">-->
+        <!--<button id = "downButton">Down</button>-->
+    <!--</div>-->
+</div>
+
+<div id = "gameElements">
+    <div id = "timeDiv">
+        <p id="time"></p>
+    </div>
+    <div id="levelDiv">
+        <p id = "level"> </p>
+    </div>
+
+    <div id="currentPlayerDiv">
+        <p id = "currentPlayer"> </p>
+    </div>
+
+    <div id="totalPlayersDiv">
+        <p id = "totalPlayers"> </p>
+    </div>
+
+    <div id="upBtn">
+        <button id = "upButton">Up</button>
+    </div>
+
+    <div id="leftRightBtn">
+        <button id = "leftButton">Left</button>
+        <button id = "rightButton">Right</button>
+    </div>
+    <div id = "downBtn">
+        <button id = "downButton">Down</button>
+    </div>
+
+</div>
+</body>
+
+</html>

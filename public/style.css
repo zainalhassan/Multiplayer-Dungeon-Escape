@@ -1,0 +1,79 @@
+canvas {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    border: 2px solid black;
+}
+body {
+    background-image: url("bground1.jpg");
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#logo
+{
+    position: fixed;
+    top: 7%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 100px
+}
+
+#rightButton, #leftButton, #upButton, #downButton
+{
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+}
+#upBtn
+{
+margin-left: 40%;
+}
+#leftRightBtn
+{
+    margin-left: 30%;
+}
+#downBtn
+{
+    margin-left: 40%;
+}
+
+#gameElements
+{
+    position: fixed;
+    top: 30%;
+    left: 5%;
+    height: 30%;
+    width: 20%;
+
+    background-color: #323232;
+    border: 2px solid black;
+}
+#timeDiv
+{
+    width: 100%;
+    background-color: darkgoldenrod;
+}
+#levelDiv
+{
+    width: 100%;
+    background-color: coral;
+}
+
+#currentPlayerDiv
+{
+    width: 100%;
+    background-color: tan;
+}
+
+#totalPlayersDiv
+{
+    width: 100%;
+    background-color: wheat;
+}
+
+
